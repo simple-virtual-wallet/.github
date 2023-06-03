@@ -1,6 +1,6 @@
 # simple virtual wallet 簡單虛擬錢包 - by Josh Tsai
 
-Paper trade chatbot 是一個錢包的系統，為[Paper Trade Chatbot](https://github.com/simple-virtual-wallet) 中的錢包部分擷取出來，使用java spring boot撰寫與grpc架設，利用microservice架構結合mysql, redis等資源架設，使用者可以註冊會員、出入金。
+**simple virtual wallet**是一個錢包的系統，為[Paper Trade Chatbot](https://github.com/simple-virtual-wallet) 中的錢包部分擷取出來，使用java spring boot撰寫與grpc架設，利用microservice架構結合mysql, redis等資源架設，使用者可以註冊會員、出入金。
 
 ### 簡介
 本系統為用來練習`java spring boot`的side project，商業邏輯部份由Josh獨立開發完成，目前僅開發後端部份。
