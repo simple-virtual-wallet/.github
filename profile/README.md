@@ -9,12 +9,21 @@
 
 simple virtual wallet 包含以下微服務：
 
-* `user` 用戶註冊、用戶資料
-* `wallet` 用戶錢包資料
+* `auth` 登入、驗證(還未連接redis)
+* `user` 用戶註冊、用戶資料(僅完成新增用戶，還未加入驗證)
+* `wallet` 用戶錢包資料、交易(僅完成新增錢包、處理交易，還未加入驗證)
 
 ### 資源
 
 * `mysql` 各microservice各自有其schema，便於拆分db使用量
+
+### Postman
+
+還未寫swagger，暫時先提供postman:
+* [user api](https://api.postman.com/collections/4586812-a0c62082-1e88-45ab-b4c8-eb9d310d401c?access_key=PMAT-01H266TPNYZFNTQXWQH21M1X4C)
+* [wallet api](https://api.postman.com/collections/4586812-379e3bd4-63bc-4b5c-a625-265461a4d7c6?access_key=PMAT-01H266Y4MD4H18T8Y5AX056J8H)
+* [auth api](https://api.postman.com/collections/4586812-cb5390ef-160c-4906-95f8-736a14af6aa5?access_key=PMAT-01H266CAXS2SS861VT5WBMY5CQ)
+
 
 ---
 
